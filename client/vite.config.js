@@ -1,25 +1,25 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-const { PORT = 3001 } = process.env;
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    proxy: {
-      '/api': {
-        target: `http://localhost:${PORT}`,
-        changeOrigin: true,
-      },
-      '/auth': {
-        target: `http://localhost:${PORT}`,
-        changeOrigin: true,
-      },
-    },
-  },
   build: {
+    outDir: 'dist', // Ensure this is set to 'dist'
     manifest: true,
     rollupOptions: {
       input: "./src/main.jsx",
+    },
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: `http://localhost:3001`,
+        changeOrigin: true,
+      },
+      '/auth': {
+        target: `http://localhost:3001`,
+        changeOrigin: true,
+      },
     },
   },
 });
