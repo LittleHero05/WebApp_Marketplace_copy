@@ -1,0 +1,21 @@
+/* Nav.module.css */
+
+/* Base styles for NavLink */
+.navLink {
+  color: #333;  /* Dark color for text */
+  text-decoration: none;  /* Remove default underline */
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover effect for NavLink */
+.navLink:hover {
+  color: #0073e6;  /* Blue color on hover */
+  text-decoration: underline;  /* Underline on hover */
+}
+
+/* Active state for NavLink */
+.navLinkActive {
+  color: #0073e6;  /* Active link color */
+  text-decoration: underline;  /* Underlined when active */
+}

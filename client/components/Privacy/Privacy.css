@@ -1,0 +1,42 @@
+.privacy-policy-container {
+    margin-top: 30px;
+  }
+  
+  .privacy-policy-box {
+    margin-bottom: 40px;
+  }
+  
+  .privacy-policy-heading {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .privacy-policy-subheading {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .privacy-policy-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .privacy-policy-list {
+    margin-left: 20px;
+  }
+  
+  .privacy-policy-list .MuiListItemText-root {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1976d2;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

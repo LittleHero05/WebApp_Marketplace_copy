@@ -1,0 +1,50 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73vh;
+  background-color: #f5f7fb;
+  padding: 2rem;
+}
+
+.signin-card {
+  display: flex;
+  flex-direction: row;
+  max-width: 1100px;
+  height: 100%;
+  max-height: 450px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 36px 60px 0px !important;
+  border: 1px solid #c1c1c1;
+  background-color: #ffffff;
+}
+
+.signin-left {
+  flex: 1;
+  background: url("../../assets/vectorstock_38509302.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.signin-right {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signin-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.signin-button {
+  margin-top: 1.5rem;
+}
+
+.signin-footer {
+  margin-top: 1rem;
+  text-align: center;
+}

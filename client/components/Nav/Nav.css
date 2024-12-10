@@ -1,0 +1,110 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Logo styling */
+.logo {
+    margin-right: 10px;
+    height: 40px;
+}
+
+/* Name (flex-grow to take up remaining space) */
+.name {
+    flex-grow: 1;
+}
+
+/* Navbar background set to white */
+.nav {
+    background-color: #ffffff;  /* Set background color to white */
+    color: #333;  /* Dark text color for contrast */
+    border-bottom: 1px solid #ddd;  /* Subtle border at the bottom for separation */
+    padding: 20px 20px;  /* Added padding for better spacing */
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+/* Hide the menu expander for now (if using a responsive design) */
+.menuExpander {
+    display: none;
+}
+
+/* Search bar styling */
+.search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.05);  /* Light background for the search bar */
+    width: 100%;
+    margin: 0 1em 0 4em;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+/* Search icon inside the search bar */
+.searchIcon {
+    padding: 0 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input field inside search bar */
+.inputBase {
+    color: #333;  /* Dark text for visibility */
+    padding-left: calc(1em + 32px);
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.navLink {
+    color: #333;  /* Dark color for text */
+    text-decoration: none;  /* Remove default underline */
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease !important;  /* Transition for color and underline */
+}
+
+.navLink:hover,
+.navLink.active {
+    color: #0073e6;  /* Change text color on hover to blue */
+    text-decoration: underline !important;  /* Underline text on hover */
+    border-radius: 4px;
+}
+
+.navLink.active {
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+.iconButton {
+    color: inherit;
+    transition: 0.2s color;
+  }
+  
+  /* Hover effect for Profile icon */
+  .iconButton.profile:hover {
+    color: #1972e6;
+  }
+  
+  /* Hover effect for Favourites icon */
+  .iconButton.favourites:hover {
+    color: rgb(212, 22, 22);
+  }
+  
+  /* Hover effect for Cart icon */
+  .iconButton.cart:hover {
+    color: rgb(230, 162, 26);
+  }

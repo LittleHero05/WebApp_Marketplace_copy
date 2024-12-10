@@ -1,0 +1,88 @@
+/* ListingCard.css */
+
+/* Card Styles */
+.listing-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.9s ease-in-out;
+    background-color: #fdfdfd !important;
+    align-items: center;
+    border-radius: 15px !important;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #c1c1c1;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 36px 60px 0px !important;
+    margin: 30px;
+
+  }
+  
+  .listing-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !important;
+  }
+  
+  .listing-card .MuiCardMedia-root {
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card {
+    padding: 16px;
+  }
+  
+  .listing-card .MuiTypography-h6 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .listing-card .MuiTypography-body2 {
+    color: #666;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  
+  .listing-card .MuiTypography-body1 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .listing-card .MuiTypography-body2 {
+    font-size: 0.875rem;
+    color: #7f8c8d;
+    margin-top: 5px;
+  }
+  
+  .MuiTooltip-tooltip {
+    font-size: 0.875rem;
+  }
+  
+  .listing-card .MuiFab-root {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .listing-card .MuiFab-root:first-of-type {
+    margin-left: 0;
+  }
+  
+  .fab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .listing-image {
+    width: 100% !important;
+    height: 200px !important;
+    border-radius: 0 !important;
+    border-bottom: 8px solid #e0e0e0 !important;
+  }
+  

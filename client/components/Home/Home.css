@@ -1,0 +1,10 @@
+.listing-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 62vh;
+    box-sizing: border-box;
+    padding: 2em 2em;
+  }
+  

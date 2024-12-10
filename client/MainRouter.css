@@ -1,0 +1,26 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height for the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.content {
+  flex: 1; /* Pushes the footer to the bottom */
+}
+
+footer {
+  width: 100%; /* Full width footer */
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+}
